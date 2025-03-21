@@ -21,13 +21,16 @@ This project demonstrates the performance benefits of assembly language programm
 
 ```
 .
-├── examples/
+├── src/
 │   ├── edge_detector.asm     # Assembly implementation
 │   ├── edge_detector.py      # Python implementation
 │   ├── run_edge_detection.bat # Comparison script
 │   ├── analyze_results.py    # Results analysis script
 │   ├── create_test_image.py  # Test image generator
 │   └── requirements.txt      # Python dependencies
+├── LICENSE
+├── .gitignore
+└── README.md
 ```
 
 ## 🔧 Implementation Details
@@ -63,18 +66,18 @@ This project demonstrates the performance benefits of assembly language programm
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/assembly-edge-detection.git
+   git clone https://github.com/perfectking321/assembly-edge-detection.git
    cd assembly-edge-detection
    ```
 
 2. Install Python dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r src/requirements.txt
    ```
 
 3. Run the comparison:
    ```bash
-   cd examples
+   cd src
    .\run_edge_detection.bat
    ```
 
